@@ -35,7 +35,7 @@ body {
   position: relative;
   z-index: 2;
   max-width: 800px;
-  color: white;
+    color: #fde0ed;
 }
 
 .icon {
@@ -47,7 +47,7 @@ body {
 .title {
   font-size: 3rem;
   font-weight: 800;
-  color: #ff6fa9;
+  background: linear-gradient(to right, #eb9fc1, #ffa0ae) ;
   margin-bottom: 15px;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .btn.primary {
-  background: #ff4081;
+  background: linear-gradient(to right, #ff4199, #ff0b4f);
   color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
