@@ -1,5 +1,4 @@
 // sección N°2
-// filepath: c:\Users\GODOY CRUZ\Desktop\Pia rochet\script.js
 
 const productos = [
   {
@@ -33,23 +32,6 @@ const productos = [
     imagen: "globos con decoracion.png"
   }
 ];
-
-function mostrarDetalle(index) {
-  const producto = productos[index];
-  document.body.innerHTML = `
-    <section class="detalle-producto">
-      <button id="volver" class="btn-volver">← Volver</button>
-      <div class="detalle-card">
-        <img src="${producto.imagen}" alt="${producto.nombre}" class="detalle-img">
-        <div class="detalle-info">
-          <h2>${producto.nombre}</h2>
-          <p>${producto.detalle}</p>
-        </div>
-      </div>
-    </section>
-  `;
-  document.getElementById('volver').onclick = () => location.reload();
-}
 
 window.onload = function() {
   document.querySelectorAll('.btn-vermas').forEach((btn) => {
