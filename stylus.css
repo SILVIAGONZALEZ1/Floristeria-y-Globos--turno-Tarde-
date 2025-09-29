@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 0 20px;
+}
+
+h1 {
+  color: #222;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.15em;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #555;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  justify-items: center;
+}
+
+.product {
+  position: relative;
+  background: #fff;
+  border-radius: 18px;
+  padding: 18px 18px 20px 18px;
+  text-align: left;
+  box-shadow: 0 6px 24px rgba(44,62,80,0.10);
+  border: none;
+  width: 100%;
+  max-width: 350px;
+  transition: box-shadow 0.2s;
+}
+.product:hover {
+  box-shadow: 0 12px 32px rgba(44,62,80,0.16);
+}
+
+.product img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+  font-size: 1.15em;
+  color: #222;
+  font-weight: 700;
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: #d63384;
+  font-size: 1.25em;
+}
+
+.add-btn {
+  background-color: #ff2e93;
+  color: #fff;
+  border: none;
+  padding: 9px 28px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  transition: background 0.2s;
+}
+.add-btn:hover {
+  background-color: #d63384;
+}
+
+.view-all {
+  display: block;
+  margin: 40px auto 0;
+  background-color: #ff2e93;
+  color: white;
+  padding: 14px 38px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  transition: background 0.2s;
+}
+.view-all:hover {
+  background-color: #d63384;
+}
+
+/* Etiqueta Destacado */
+.badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #ff2e93;
+  color: #fff;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding: 5px 16px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+  letter-spacing: 0.5px;
+  z-index: 2;
+}
+
+/* Estrellas de calificación */
+.stars {
+  color: #ffc107;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+/* Descripción del producto */
+.product-desc {
+  color: #666;
+  font-size: 0.98em;
+  margin-bottom: 8px;
+}
+
