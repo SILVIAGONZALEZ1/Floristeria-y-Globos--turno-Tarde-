@@ -237,9 +237,9 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url(https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/480359136_942222781447600_328427436901818405_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=i-c91TpWCIgQ7kNvwGSRZGL&_nc_oc=AdnrQcAMNzC9k6HgE80FHhk1i4ehFQ72zd-h9A9axH7ScdNjSlGWA5hWrnoujecEzM4&_nc_zt=23&_nc_ht=scontent.fmdz4-1.fna&_nc_gid=Hc2azktkq9xXqAZs8EoysQ&oh=00_Afb1vqCWFcNpiiyoBrhdnK-2h5HUFbcXVDb9N02BBxYWxg&oe=68DCB94E) 
+  background: url(img/imagenes/torta1.jpg) 
               no-repeat center center/cover;
-  background-size: 120%;
+  background-size: 125%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,6 +270,7 @@ body {
   background: -webkit-linear-gradient(left,#fda4d4, #ffa0ae);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0,5px #fda4d4; /* grosor y color del borde */
   margin-bottom: 15px;
 }
 .subtitle {
