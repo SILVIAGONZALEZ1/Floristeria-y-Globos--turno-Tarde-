@@ -109,3 +109,104 @@ body {
   background: #fde0ed;
   color: #ff4081;
 }
+/* termina seccion 1 */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fef6fb;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Sección principal */
+.sobre-section .content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1 1 55%;
+}
+
+.text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.text h2 span {
+  font-weight: 700;
+  color: #111;
+}
+
+.text h2 {
+  font-weight: 700;
+  color: #e91e63;
+}
+
+.text p {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Misión */
+.mision-box {
+  background: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.mision-box h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Estadísticas */
+.stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.stats div {
+  text-align: center;
+  flex: 1 1 120px;
+}
+
+.stats span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e91e63;
+  display: block;
+}
+
+.stats p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Imagen */
+.image {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 8px 8px 0 #fff, 12px 12px 0 rgba(0,0,0,0.05);
+}
