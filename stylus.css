@@ -176,17 +176,20 @@ body {
 
 .list-group-item {
     margin: 0;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     width: 100%;
-    background-color: #cbfffc66;
+    background-color: #cbfffc66 !important;
+    border: none !important;
     border-radius: 10px;
     align-items: center;
 }
 
 .list-group-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     cursor: pointer;
+    border-color: #aafefa66;
+    box-shadow: 0 0 0 1px #96c9ff;
 }
 
 .container-icon {
@@ -229,7 +232,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    background-color: #ffaaf266;
+    background-color: #ffaaf266 !important;
 }
 
 .encabezado-horarios {
@@ -304,17 +307,17 @@ body {
 .input-group textarea {
     padding: 12px 15px;
     border: 2px solid #e0e0e0;
-    border-radius: 8px;
+    border-radius: 8px !important;
     font-size: 14px;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #fff;
     transition: all 0.3s ease;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #85baf3;
     background-color: #fff;
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
 }
